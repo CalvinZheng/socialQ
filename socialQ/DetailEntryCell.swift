@@ -1,20 +1,18 @@
 //
-//  TableContentCell.swift
+//  DetailEntryCell.swift
 //  socialQ
 //
-//  Created by Calvin Zheng on 2015-05-20.
+//  Created by Calvin Zheng on 2015-05-21.
 //  Copyright (c) 2015 JakeS. All rights reserved.
 //
 
 import UIKit
 
-class TableContentCell: UITableViewCell {
+class DetailEntryCell: UITableViewCell {
 
-    override func awakeFromNib()
-    {
+    override func awakeFromNib() {
         super.awakeFromNib()
-        self.layoutMargins = UIEdgeInsetsZero
-        self.preservesSuperviewLayoutMargins = false
+        // Initialization code
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
@@ -22,4 +20,5 @@ class TableContentCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
 }
